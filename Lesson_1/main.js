@@ -13,3 +13,7 @@ prompt("Xác nhận độ tuổi và nhập tuổi của bạn: ");
 setTimeout(function() {
     alert("PT26");
 },3000)
+
+var pt = '\'Phan Thanh Tri\'';
+
+console.log(pt);
