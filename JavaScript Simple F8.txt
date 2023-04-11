@@ -1,0 +1,54 @@
+				JavaScript- Cơ Bản F8-Pro
+2.Biến, comments, built-in:
+	2.1: Sử dụng JS với HTML:
+		- alert('Hello Word'); : câu lệnh thông báo trên màn hình browser
+	
+	2.2: Khái niệm biến và cách sử dụng :
+		- var fullName = 'Phan Thanh Tri';
+		- alert(fullName);
+	
+	2.3: Cú pháp comments là gì? : 
+		
+	2.4: Thuật ngữ Built-in là gì?: 
+		Các hàm được xây dựng sẳn từ JS:
+		1. Console: đối tượng dùng để in ra data
+			- console.log('PT26'); :
+			- console.log(123);
+			- console.warn , console.error, ...
+		
+		2. Confirm : tạo ra hộp thoại xác nhận cái gì đó;
+			VD: confirm('May du tuoi chua?')
+		
+		3. Prompt: tạo ra hôp thoại thông báo có thêm ô input để người dùng nhập xác nhận gì gì đó
+			VD: prompt("Xac nhan do tuoi, nhap tuoi cua ban:");
+			
+		4. setTimeout : hàm này sẽ xử lí tham số function trong 1 khoảng giờ gian cho trước
+			VD: setTimeout(function() {} , 1000); // 1000 ở đây là 1s
+		
+		5. setInterval : cứ khoảng 1 thời gian cho trước thì thực hiện lại function (lập đi lập lại)
+			VD: setInterval(function() {} , 3000); // 3000 ở đây là 3s
+
+3. Toán tử, kiểu dữ liệu:
+	3.1: Toán tử số học
+	3.2: Toán từ ++ và  -- VD: a = 1; b = ++a * a-- = 4
+	3.3: Toán từ nối chuỗi 
+	3.4: Kiểu dữ liệu
+		3.4.1: Kiểu dữ liệu nguyên thuỷ - Primitive Data
+			- Number VD: var a = 1; ( Sẽ tạo giá trị 1 vào vùng nhớ trong ram, khi thay đổi thành 2 sẽ tạo ra 1 vùng nhớ mới là 2 )
+			- String VD: var fullName = 'Phan Thanh Tri'; var fullName = 'PT26 /' pt /''
+			- Boolean VD: var isSuccess = true; 
+			- Undefined VD: var age;
+			- Null var isNull = null;
+			- Symboll VD: var id = Symbol('id'); duy nhất
+
+		3.4.2: Dữ liệu phức tạp - Complex Data
+			- Function var myFunction = function () { alert('Hello') }
+			- Object (Arr và Object)
+				VD: var myObject = { 
+					name:'PT 26',
+					age: 18,
+					adress: 'Tra Dinh',
+					myFunction: function () { }				 
+				    };
+				VD: var myArr = ['JS','HTML','CSS'];
+			console.log(typeof + tenbien);
